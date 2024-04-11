@@ -2,7 +2,7 @@ Used Weaviate vector database and LangChain to augment school textbooks context 
 ```
 1. Process Flow
 ```
-We visit each page of a pdf, adding it to a list dcouments [].
+We visit each page of a pdf, adding it to a list documents [].
 We then chunk the text and store it in the Weavite vector database. We then retrieve the embeddings and feed them through Langchain to generate responses (answers).
 ```
 2. RAG
